@@ -2,38 +2,55 @@
   "manifest_version": 2,
   "name": "pinn",
   "description": "passcod's fanfic tracking tool",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "pinn@webext.passcod.name",
+      "strict_min_version": "65.0"
+    }
+  },
   "version": "0.1.0",
   "icons": {
     "64": "icons/icon.png"
   },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
   "background": {
-    "scripts": [
-      "background_script.js"
-    ]
+    "page": "background.html"
   },
   "content_scripts": [
     {
       "matches": [
-        "*://*.mozilla.org/*"
+        "*://archiveofourown.org/works/*"
       ],
-      "js": [
-        "content_script.js"
-      ]
+      "js": ["contents/ao3/work.js"]
+    }, {
+      "matches": [
+        "*://archiveofourown.org/tags/*",
+        "*://archiveofourown.org/collections/*"
+      ],
+      "js": ["contents/ao3/list.js"]
     }
   ],
   "browser_action": {
     "default_icon": {
       "64": "icons/icon.png"
     },
-    "default_popup": "browserAction/index.html",
-    "default_title": "pinn"
+    "default_popup": "actions/browser/index.html",
+    "default_title": "Pinn"
   },
   "page_action": {
+    "browser_style": true,
+    "chrome_style": true,
     "default_icon": {
       "64": "icons/icon.png"
     },
-    "default_popup": "pageAction/index.html",
-    "default_title": "pinn"
+    "show_matches": [
+      "*://archiveofourown.org/works/*"
+    ],
+    "default_popup": "actions/page/index.html",
+    "default_title": "Manage this work"
   },
   "options_ui": {
     "page": "options/index.html"

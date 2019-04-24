@@ -1,0 +1,46 @@
+h4 {
+  margin: 0;
+}
+
+.panel-section-header {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+.panel-section-header:not(:first-child) {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.panel-list-item:not(.disabled):hover {
+  border: 0;
+}
+
+.panel-list-item.status:hover {
+  background: none;
+}
+
+.panel-list-item .icon {
+  width: 1em;
+  height: 1em;
+  background-size: 1em;
+  background-repeat: no-repeat;
+  margin-left: -0.5em;
+  margin-right: 0.5em;
+}
+
+.panel-list-item.disabled .icon {
+  filter: grayscale(1) opacity(70%);
+}
+
+.icon.pinn { background-image: url(/icons/icon.png); }
+.icon.hourglass { background-image: url(/icons/hourglass.svg); }
+.icon.clock { background-image: url(/icons/clock.svg); }
+.icon.mountain { background-image: url(/icons/mountain.svg); }
+.icon.eye { background-image: url(/icons/eye.svg); }
+.icon.calendar { background-image: url(/icons/calendar.svg); }
+.icon.words { background-image: url(/icons/words.svg); }
+.icon.grow { background-image: url(/icons/grow.svg); }
+.icon.fire { background-image: url(/icons/fire.svg); }
+.icon.trash { background-image: url(/icons/trash.svg); }
+.icon.thumbsup { background-image: url(/icons/thumbsup.svg); }
+.icon.star { background-image: url(/icons/star.svg); }

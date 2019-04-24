@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 95 77.5"
+   version="1.1"
+   x="0px"
+   y="0px"
+   id="svg16"
+   sodipodi:docname="eye.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2048"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="3.0451613"
+     inkscape:cx="-46.419491"
+     inkscape:cy="38.75"
+     inkscape:window-x="0"
+     inkscape:window-y="56"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <title
+     id="title2">Eye</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     sketch:type="MSPage"
+     id="g10"
+     transform="translate(0,8.8665254)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       sketch:type="MSArtboardGroup"
+       id="g8"
+       style="fill:#000000">
+      <path
+         d="M 64.793609,16.825407 C 74.756322,22.50083 81.171498,31 81.171498,31 81.171498,31 66.71361,50.154589 47.5,50.154589 28.28639,50.154589 13.828502,31 13.828502,31 c 0,0 7.198013,-9.536315 18.185796,-15.151443 -2.146986,3.13411 -3.403187,6.927737 -3.403187,11.015079 0,10.769553 8.72112,19.5 19.479167,19.5 10.758046,0 19.479166,-8.730447 19.479166,-19.5 0,-3.671427 -1.013553,-7.105873 -2.775835,-10.038229 z M 47.5,57 C 73.580113,57 90,31 90,31 90,31 73.580113,5 47.5,5 21.419887,5 5,31 5,31 5,31 21.419887,57 47.5,57 Z M 44.617518,14.203958 c -5.067545,-0.08966 -9.984237,3.752542 -10.269701,9.416998 -0.06554,1.300521 0.93561,2.407933 2.236131,2.473474 1.300522,0.06554 2.407934,-0.935609 2.473474,-2.236131 0.147283,-2.922527 2.789157,-4.98705 5.476672,-4.939498 1.301968,0.02304 2.376097,-1.013742 2.399134,-2.31571 0.02304,-1.301968 -1.013742,-2.376096 -2.31571,-2.399133 z"
+         sketch:type="MSShapeGroup"
+         id="path6"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

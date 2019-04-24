@@ -1,0 +1,7 @@
+pkg
+target
+
+**/*.rs.bk
+libpinn.*
+
+Cargo.lock
