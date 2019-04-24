@@ -49,7 +49,7 @@ const ports = new Map;
 async function connected (port, portname) {
   let proto = new Dispatch(port);
   const name = await proto.askName();
-  proto.connected = false;
+  proto.disconnected();
 
   switch (name) {
     case 'page':
