@@ -24,13 +24,13 @@
       "matches": [
         "*://archiveofourown.org/works/*"
       ],
-      "js": ["contents/ao3/work.js"]
+      "js": ["contents/ao3/work.bundled.js"]
     }, {
       "matches": [
         "*://archiveofourown.org/tags/*",
         "*://archiveofourown.org/collections/*"
       ],
-      "js": ["contents/ao3/list.js"]
+      "js": ["contents/ao3/list.bundled.js"]
     }
   ],
   "browser_action": {

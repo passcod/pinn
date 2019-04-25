@@ -5,3 +5,5 @@ target
 libpinn.*
 
 Cargo.lock
+*.bundled.js
+node_modules
